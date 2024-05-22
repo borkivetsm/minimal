@@ -2,20 +2,20 @@
   "name": "minimal",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://bohdana-halenko.github.io/minimal",
+  "homepage": "https://Bohdana-Halenko.github.io/minimal/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /minimal/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bohdana-halenko/minimal.git"
+    "url": "git+https://github.com/Bohdana-Halenko/minimal.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/goitacademy/minimal/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
