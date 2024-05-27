@@ -1,3 +1,8 @@
+.reviews{
+  padding-bottom: 90px;
+}
+
+
 .reviews__item-two, 
 .reviews__item-three{
   display: none;
@@ -11,6 +16,7 @@
     line-height: 141%;
     text-transform: uppercase;
     color: #0a224a;
+    padding-bottom: 30px;
 }
 
 .reviews__title{
@@ -39,7 +45,9 @@ color: #0a224a;
 
 
 .reviews__title-one {
-    font-size: 1.5em;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 150%;
     color: #1e3250;
     text-align: center;
     margin-bottom: 20px;
@@ -53,7 +61,6 @@ color: #0a224a;
     }
 
     .img__reviews {
-        border-radius: 50%;
         width: 50px;
         height: 50px;
         margin-right: 15px;
@@ -70,6 +77,8 @@ color: #0a224a;
               font-size: 1.2em;
               color: #1e3250; 
             }
+
+
   
             .reviews__text-two {
               font-size: 0.8em;
