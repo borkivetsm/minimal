@@ -20,13 +20,12 @@
 
 .about__nav-item{
     width: 472px;
-    height: 983px;
+    padding: 20px;
     background-color: #F7FAFF;
     padding-left: 39px;
 }
 
 .about__nav{
-    height: 173px;
     flex-wrap: wrap;
     margin-top: 30px;
 }
@@ -48,18 +47,17 @@
 
 .about__item-img{
     background-repeat: no-repeat;
+    width: 472px;
 }
 
 .about__img{
-
+    width: 100%;
 }
 
+
+
 @media (min-width: 768px) and (max-width: 1199px) {
-    
-    .about__item-img{
-        // background-image: url(./img/product@1xplan.png);
-        background-repeat: no-repeat;
-    }
+
     .about__nav{
         display: flex;
         justify-content: space-between;
@@ -67,27 +65,31 @@
     }
     .about__nav-item{
         width: 760px;
-        height: 500px;
     }
     .about__nav{
         width: 622px;
     }
+    .about__item-img{
+        width: 760px;
+    }
 }
 
-@media (min-width: 1200px) {    
-    .about__item-img{
-        // background-image: url(./img/product@1x.png);
-        background-repeat: no-repeat;
-    }
+@media (min-width: 1200px) {  
+    
     .about__nav{
         display: flex;
         justify-content: space-between;
     }
     .about__nav-item{
         width: 760px;
-        height: 500px;
     }
     .about__nav{
         width: 622px;
+    }
+    .about__box{
+        display: flex;
+    }
+    .about__item-img{
+        width: 536px;
     }
 }
