@@ -1,9 +1,13 @@
 .newsletter__title{ 
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 141%;
-    text-transform: uppercase;
-    color: #0a224a;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 141%;
+        text-transform: uppercase;
+        color: #0a224a;
+        padding-bottom: 30px;
+        text-align: center;
+        
+    
     }
     
     .newsletter__text{
@@ -28,5 +32,14 @@
         color: #ffffff;
         padding: 13px 75px;
         background: #0a224a;
+    }
+    @media screen and (min-width:480px){
+        .newsletter__title{ 
+            text-align: left;
+            
+        
+        }
+
+        
     }
     
