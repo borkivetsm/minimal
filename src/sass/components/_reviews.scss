@@ -67,7 +67,12 @@ color: #0a224a;
       }
 
 
-@media screen and (min-width: 768px) {
+      .reviews__text-wrap{
+
+      }
+
+
+@media screen and (min-width: 480px) {
 
   
 
@@ -76,6 +81,11 @@ color: #0a224a;
               margin: 0;
               font-size: 1.2em;
               color: #1e3250; 
+            }
+
+            .reviews__list{
+              display: flex;
+              justify-content: space-between;
             }
 
 
@@ -95,5 +105,22 @@ color: #0a224a;
             .reviews__text {
               font-size: 0.9em;
             }
+            .reviews__item-two{
+              display: block;
+            }
+
+            .reviews__item-one{
+              padding-right: 10px;
+            }
+
+        }
+
+        @media screen and (min-width: 1200px){
+          .reviews__item-three{
+            display: block;
+          }
+
+
+
 
         }
