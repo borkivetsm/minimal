@@ -24,11 +24,10 @@
 }
 
 .about__nav-item{
-    width: 472px;
+    max-width: 100%;
     padding: 20px;
     padding-left: 39px;
     background-color: #F7FAFF;
-    margin-right: 24px;
 }
 
 .about__nav{
@@ -98,6 +97,7 @@
     }
     .about__nav-item{
         width: 760px;
+        margin-right: 24px;
     }
     .about__nav{
         width: 622px;
