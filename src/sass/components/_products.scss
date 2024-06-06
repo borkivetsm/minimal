@@ -1,0 +1,66 @@
+.products{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.products__item{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+/*.products__link{
+    display: flex;
+    justify-content: space-between;
+}*/
+.products__box{
+    width: 343px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.products__list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding-left: 16px;
+}
+.products__wrap:nth-child(2){
+    display: none;
+}
+.products__wrap:nth-child(3){
+    display: none;
+}
+.products__wrap:nth-child(4){
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .products__wrap:nth-child(2){
+        display: block;
+        margin: 0 auto;
+    }
+    .products__link{
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .products__wrap:nth-child(3){
+        display: block;
+        margin: 0 auto;
+    }
+    .products__wrap:nth-child(4){
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+    
+
+
+/*.benefits__list:nth-child(2)::before{
+    background-image: url(../img/clock.webp)
+}*/
