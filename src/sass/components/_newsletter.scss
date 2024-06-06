@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    max-width: 50%;
+    
 }
 
 .newsletter__wrap{
@@ -21,13 +21,11 @@
 
 .newsletter__input {
     margin-bottom: 10px;
+    margin-top: 10px;
     padding: 10px;
     font-size: 16px;
 }
-.newsletter__input{
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
+
 .wrap__label {
     display: flex;
     align-items: center;
@@ -39,13 +37,7 @@
     
 }
 
-.newsletter__btn {
-    background-color: #00274d;
-    color: white;
-    border: none;
-    max-width: 40%;
-    cursor: pointer;
-}
+
 
 .newsletter__btn:hover {
     background-color: #004080;
@@ -88,14 +80,26 @@
     }
     
     
-    .newsletter__btn{
+    .newsletter__btn {
         font-weight: 400;
+        padding: 13px 75px;
+        
         font-size: 18px;
         line-height: 133%;
-        color: #ffffff;
-        padding: 13px 75px;
-        background: #0a224a;
-        margin: 20px;
+        background-color: #00274d;
+        color: white;
+        border: none;
+        width: 224px;
+        
+        cursor: pointer;
+    }
+
+
+
+
+    .newsletter__img-top{
+        height: 460px;
+        width: 460px;
     }
 
 
