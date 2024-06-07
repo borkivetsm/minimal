@@ -20,7 +20,18 @@
     display: block;
     margin: 0 auto;
 }
-
+.products__box:nth-child(1){
+    background-image: url(../images/david/product_pr1x.png);
+}
+.products__box:nth-child(2){
+    background-image: url(../images/david/product_pr1x_2.png);
+}
+.products__box:nth-child(3){
+    background-image: url(../images/david/product_pr1x_3.png);
+}
+.products__box:nth-child(4){
+    background-image: url(../images/david/product_pr1x_4.png);
+}
 .products__list{
     font-weight: 400;
     font-size: 16px;
