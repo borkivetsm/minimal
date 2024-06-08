@@ -16,6 +16,17 @@
     display: flex;
     justify-content: center;
     margin-bottom: 14px;
+    background-image: url(./../images/david/main_1xmob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),  
+(-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),  
+(min-resolution: 2dppx) {
+  .bestsellers__wrap{    
+background-image: url(./../images/david/main_2xmob.png);
+  }
 }
 .bestsellers__text{
     font-weight: 400;
@@ -29,18 +40,54 @@
     font-size: 16px;
     line-height: 150%;
     margin-left: 16px;
+    margin-bottom: 15px;
 }
-.bestsellers__gall{
+/*.bestsellers__gall{
+    width: 343px;
+    height: 193px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px; 
+}*/
+.bestsellers__one{
     width: 343px;
     height: 193px;
     display: flex;
     justify-content: center;
     margin-bottom: 14px;
+    background-image: url(./../images/david/product_1xmob_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+@media (min-device-pixel-ratio: 2),  
+  (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),  
+  (min-resolution: 2dppx) {
+    .bestsellers__one{    
+  background-image: url(./../images/david/product_2xmob_1.png);
+    }
+  }
+  .bestsellers__two{
+    width: 343px;
+    height: 193px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+    background-image: url(./../images/david/product_1xmob_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),  
+  (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),  
+  (min-resolution: 2dppx) {
+    .bestsellers__two{    
+  background-image: url(./../images/david/product_2xmob_2.png);
+    }
+  }
 .bestsellers__box{
     display: block;
     margin: 0 auto;
-    padding-bottom: 30px;
 }
 .bestsellers__box:nth-child(3){
     display: none;
@@ -63,7 +110,93 @@
     .bestsellers__wrap{
         width: 704px;
         height: 489px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/main_1x_tab.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+    @media (min-device-pixel-ratio: 2),  
+    (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),  
+    (min-resolution: 2dppx) {
+      .bestsellers__wrap{    
+    background-image: url(./../images/david/main_2x_tab.png);
+      }
+    }
+    .bestsellers__one{
+        width: 343px;
+        height: 193px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/bestsell_1x_tab_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),  
+      (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),  
+      (min-resolution: 2dppx) {
+        .bestsellers__one{    
+      background-image: url(./../images/david/bestsell_2x_tab_1.png);
+        }
+      }
+      .bestsellers__two{
+        width: 343px;
+        height: 193px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/bestsell_1x_tab_2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),  
+      (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),  
+      (min-resolution: 2dppx) {
+        .bestsellers__two {    
+      background-image: url(./../images/david/bestsell_2x_tab_2.png);
+        }
+      }
+      .bestsellers__three{
+        width: 343px;
+        height: 193px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/bestsell_1x_tab_3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),  
+      (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),  
+      (min-resolution: 2dppx) {
+        .bestsellers__three{    
+      background-image: url(./../images/david/bestsell_2x_tab_3.png);
+        }
+      }
+      .bestsellers__four{
+        width: 343px;
+        height: 193px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/bestsell_1x_tab_4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),  
+      (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),  
+      (min-resolution: 2dppx) {
+        .bestsellers__four{    
+      background-image: url(./../images/david/bestsell_2x_tab_4.png);
+        }
+      }
 }
 @media screen and (min-width:1200px){
     .bestsellers__wraper{
@@ -77,4 +210,94 @@
         width: 440px;
         height: 489px;
     }
+    .bestsellers__wrap{
+        width: 536px;
+        height: 489px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/main_1x.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),  
+    (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),  
+    (min-resolution: 2dppx) {
+      .bestsellers__wrap {    
+    background-image: url(./../images/david/main_2x.png);
+      }
+    }
+    .bestsellers__one{
+        width: 258px;
+        height: 193px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/bestsell_x1_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),  
+      (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),  
+      (min-resolution: 2dppx) {
+        .bestsellers__one {    
+      background-image: url(./../images/david/bestsell_x2_1.png);
+        }
+      }
+      .bestsellers__two{
+        width: 258px;
+        height: 193px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/bestsell_x1_2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),  
+      (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),  
+      (min-resolution: 2dppx) {
+        .bestsellers__two {    
+      background-image: url(./../images/david/bestsell_x2_2.png);
+        }
+      }
+      .bestsellers__three{
+        width: 258px;
+        height: 193px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/bestsell_x1_3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),  
+      (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),  
+      (min-resolution: 2dppx) {
+        .bestsellers__three {    
+      background-image: url(./../images/david/bestsell_x2_3.png);
+        }
+      }
+      .bestsellers__four{
+        width: 258px;
+        height: 193px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 14px;
+        background-image: url(./../images/david/bestsell_x1_4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),  
+      (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),  
+      (min-resolution: 2dppx) {
+        .bestsellers__four {    
+      background-image: url(./../images/david/bestsell_x2_4.png);
+        }
+      }
 }
