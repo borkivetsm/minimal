@@ -4,10 +4,14 @@
     padding-top: 36px;
 }
 
+.about__box {
+    background-color: #F7FAFF;
+}
+
 .about__title{
     font-weight: 400;
-    font-size: 32px;
-    line-height: 141%;
+    font-size: 28px;
+    line-height: 150%;
     text-transform: uppercase;
     margin-top: 30px;
 }
@@ -24,10 +28,10 @@
 }
 
 .about__nav-item{
-    width: 472px;
+    // width: 472px;
     padding: 20px;
     padding-left: 39px;
-    background-color: #F7FAFF;
+    // background-color: #F7FAFF;
     margin-right: 24px;
 }
 
@@ -57,9 +61,9 @@
     margin-bottom: 30px;
 }
 
-.about__item-img{
-    width: 472px;
-}
+// .about__item-img{
+//     width: 472px;
+// }
 
 .about__img{
     width: 100%;
