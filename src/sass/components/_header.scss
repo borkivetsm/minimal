@@ -1,14 +1,38 @@
-.header{
-    background-color: Krasivyy;
+.header {
+    background-color: #f7faff;
+    padding: 40px;
 }
 
-.header-wrap{
+.header__wrap {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-content: center;
 }
 
-.nav{
-    padding: 8px;
-    width: 621px;
-    
+.header__logo {
+    height: 16px;
+    width: 127px;
+    fill: #0a224a;
 }
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__nav-link {
+    display: none;
+    color: #0a224a;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-right: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+    .header__nav-link {
+        display: block;
+    }  
+}
+
