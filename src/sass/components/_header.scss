@@ -28,6 +28,13 @@
     font-size: 18px;
     line-height: 150%;
     margin-right: 30px;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.83, -0.08, 0.32, 1);
+}
+
+.header__nav-link:hover {
+    color: #043a97;
 }
 
 @media screen and (min-width: 1200px) {
